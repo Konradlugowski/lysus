@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta charset="utf8">
+</head>
+<body>
+<form method ="get" action="ff.php">
+<h1> FORMULARZ REJESTRACYJNY NA SIŁOWNIE </h1> 
+Imie:
+<input type="text" name="imie">
+Nazwisko:
+<input type="text" name="nazwisko">
+<BR>
+<br>
+<br> Waga:
+<input type="number" name="quality" min="20" max="200"></label>
+ Wzrost:
+ <input type="text" name="Wzrost">
+ <br>
+ <br> BMI:
+ <input type="text" name="BMI">
+Wiek:
+ <input type="text" name="Wiek">
+ <br>
+ <br>
+ <br>
+ Docelowa Waga:
+ <br> <input type="text" name="Waga">
+ <h3>Adres</h3> 
+Ulica:
+<br> <input type="text" name="Adres" size="40">
+ <br>
+ <br>
+ Numer Domu:
+ <br> <input type="text" name="Numer Domu" size="40">
+ <br>
+ <br> Miasto:
+ <br><input type="text" name="Miasto" size="40">
+ <br>
+ <br> Wojewodztwo:
+<br> <input type="text" name="wojewodztwo" size="40">
+<br>
+<br> Kod Pocztowy:
+<br> <input type="text" name="Kod Pocztowy" size="40">
+<br>
+<br> Kraj:
+<br> <select name="Kraj">
+<option> Polska </option>
+<option> Niemcy </option>
+<option> Czechy </option>
+<option> Francja </option>
+<option> Litwa </option>
+</select>
+<br>
+<h3> Numer Telefonu </h3>
+ Kierunkowy:
+<br> <select name="Kierunkowy">
+<option> +48 </option>
+<option> +49 </option>
+<option> +420 </option>
+<option> +33 </option>
+<option> +370 </option>
+</select>
+<input type="tel" placeholder="000-000-000">
+<br>
+<br> E-mail:
+<br> <input type="e-mail" name="e-mail" placeholder="np.jan.kowalski@poczta.pl">
+<br> 
+<br>
+<h3> Wyjaśnij, dlaczego chcesz cwiczyc w naszej siłowni </h3>
+<br> <textarea rows="6" cols="48"> zacznij pisać... </textarea> <br>
+<p> <input type="checkbox" name="opcje"> Zgadzam sie na przetwarzanie moich danych osobowych </p>
+<br> <input type="reset" value="Wyczyść">
+<input type="submit" value="Wyślij">
+</body>
+</html>
